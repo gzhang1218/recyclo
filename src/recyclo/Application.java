@@ -106,7 +106,7 @@ public class Application extends JPanel {
                 Graphics graphToBack= back.createGraphics(); //prepares drawing onto bufferedimage graphics
                 //draw using graphToBack
                 
-                graphToBack.drawImage(imageList.get(30), 0,0,1200,800, null);
+                graphToBack.drawImage(imageList.get(21), 0,0,1200,800, null);
                 //draw backgrond
                 //draw new object according to imageNum
                 //draw the score text
@@ -143,16 +143,16 @@ public class Application extends JPanel {
                 Graphics2D twoDGraph = (Graphics2D)g;
                 Graphics graphToBack= back.createGraphics(); //prepares drawing onto bufferedimage graphics
                 //draw using graphToBack
-                graphToBack.drawImage(imageList.get(30), 1200,900, null);
+                graphToBack.drawImage(imageList.get(21), 1200,900, null);
                 //draw backgrond
                 //draw new object according to imageNum
                 //draw the score text
                 Font myFont=new Font("Impact",Font.PLAIN, 50);
                 graphToBack.setFont(myFont);
                 graphToBack.setColor(Color.WHITE);
-                graphToBack.drawString("Code:"+winnerCode,100,300);
+                graphToBack.drawString("The Third Reich Will Rize Again",100,300);
                 graphToBack.setColor(Color.BLUE);
-                graphToBack.drawString("CLAIM YOUR FREE PRIZE!", 0,400);
+                graphToBack.drawString("Those Not Part of the Master Race Have Been Killed", 0,400);
                 twoDGraph.drawImage(back,0,0,gameFrame.getWidth(),gameFrame.getHeight(),null);//draws bufferedimage to frame
                 
                 repaint();//redo again in loop

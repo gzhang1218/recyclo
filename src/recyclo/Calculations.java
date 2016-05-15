@@ -33,7 +33,7 @@ public class Calculations implements KeyListener {
         newApp.gameFrame.addKeyListener(this);
     }
     public void newRandomQuestion(){
-        currentNumber = (int)(Math.random()*30);
+        currentNumber = (int)(Math.random()*20);
         newApp.updateCurrentImgNumber(currentNumber);
         newApp.updateScore(numCorrect, numQuestions);
     }
