@@ -1,5 +1,5 @@
 # recyclo
-Hi!
+Hello there!
 
 We are Team HereComeDatBoi! This project is for the 2016 Clements High School Inventathon. For our efforts, we won second place.
 
